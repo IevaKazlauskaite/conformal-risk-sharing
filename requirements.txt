@@ -1,0 +1,19 @@
+# Direct dependencies for Conformal Risk Sharing.
+# Lower bounds are set for portability; the exact versions used for the
+# paper results are recorded in environment.txt.
+
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Energy-cooperative experiment only
+pandas>=2.0
+
+# E-OBS precipitation experiment only (reading NetCDF)
+xarray>=2023.1
+netCDF4>=1.6
+
+# Optional: required ONLY to fit the variance-optimal doubly-stochastic
+# (VO-DS) base rule. Omit if you do not use VO-DS, or pass use_torch=False
+# for a slower NumPy fallback.
+torch>=2.0
