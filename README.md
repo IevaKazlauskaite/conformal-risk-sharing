@@ -16,7 +16,7 @@ CRS_energy-coop.ipynb      Energy-cooperative experiment + dependence diagnostic
 ```
 
 
-### Key governance parameters
+### Key parameters
 
 | Symbol | Argument | Meaning |
 |--------|----------|---------|
